@@ -41,7 +41,6 @@
     imageView.image = [UIImage imageNamed:@"random_red_envelope"];
     imageView.frame = CGRectMake(0, 0, self.view.frame.size.width, 300);
     [headView addSubview:imageView];
-    //imageView.contentMode = UIViewContentModeScaleAspectFill;
     self.imageView = imageView;
 
     tableView.tableHeaderView = headView;
